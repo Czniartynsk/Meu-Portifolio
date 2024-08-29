@@ -1,4 +1,33 @@
 #services {
-  height: 50vh;
   background-color: var(--gray-100);
+  text-align: center;
+  padding-block: 8.8rem 12rem;
+
+  h2 {
+    margin-block: 0.8rem 5.6rem;
+  }
+
+  #features {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+
+    .card-feature {
+      text-align: start;
+      border: 1px solid var(--gray-200);
+      border-radius: 1.2rem;
+      padding: 2rem;
+      min-width: 28rem;
+
+      img {
+        width: 4.8rem;
+        aspect-ratio: 1/1;
+      }
+
+      h3 {
+        margin-block: 2rem 0.8rem;
+      }
+
+    }
+  }
 }
