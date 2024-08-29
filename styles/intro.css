@@ -14,13 +14,8 @@
   }
 }
 
-.container {
-  max-width: 104rem;
-  margin: auto;
-
-  h1 {
-    padding-block: 0.8rem 2rem;
-  }
+h1 {
+  padding-block: 0.8rem 2rem;
 }
 
 #profile {

@@ -1,0 +1,43 @@
+#projects {
+  text-align: center;
+  background-color: var(--gray-200);
+  height: 100vh;
+
+  .container {
+    padding-block: 7.2rem 14.4rem;
+  }
+
+  #cards-project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5.6rem;
+    gap: 2.4rem;
+
+    .card {
+      background-color: var(--gray-300);
+      padding: 1.2rem;
+      border-radius: 1.2rem;
+
+      p, h3 {
+        text-align: start;
+      }
+
+      img {
+        border-radius: 0.8rem;
+        width: 100%;
+      }
+
+      p {
+        margin-block: 2rem 0.8rem;
+      }
+
+      
+    }
+  }
+
+
+}
+
+
+
+

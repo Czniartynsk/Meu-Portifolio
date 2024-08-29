@@ -33,3 +33,8 @@
   --gray-600: #E2E4E9;
   
 }
+
+.container {
+  max-width: 104rem;
+  margin: auto;
+}
