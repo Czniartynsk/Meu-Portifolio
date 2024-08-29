@@ -23,9 +23,16 @@
   font: var(--text-sm);
 }
 
+.social-links {
+  font: var(--social-links);
+}
 
 .red {
   color: var(--red);
+}
+
+.purple {
+  color: var(--purple);
 }
 
 .gray-400 {

@@ -1,0 +1,90 @@
+#contact {
+  background: url(../assets/images/Background_Contacts.png) no-repeat center/cover;
+  height: 100vh;
+  text-align: center;
+  padding-block: 12.8rem 20rem;
+
+  h2 {
+    margin-block: 0.8rem;
+  }
+
+  #social-links {
+    margin: 4.8rem auto 0px;
+    max-width: 40rem;
+    row-gap: 2rem;
+    
+    a {
+      margin-top: 1.6rem;
+      background-color: var(--gray-300);
+      padding: 2rem;
+      border-radius: 0.8rem;
+      border: 1.5px solid var(--gray-300);
+
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+
+      div {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+      } 
+
+      div span {
+        width: 2.9rem;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+
+        &.linkedin {
+          background-image: url(../assets/icons/LinkedinLogo.svg);
+        }
+        
+        &.instagram {
+          background-image: url(../assets/icons/InstagramLogo.svg);
+        } 
+        
+        &.github {
+          background-image: url(../assets/icons/GithubLogo.svg);
+        }
+        
+        &.email {
+          background-image: url(../assets/icons/EnvelopeSimple.svg);
+        }
+      }
+
+
+      span {
+        background-image: url(../assets/icons/ArrowUpRight.svg);
+        width: 2.8rem;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+    }
+
+    a:hover {
+      border: 1.5px solid var(--blue);
+
+      div span {
+        &.linkedin {
+          background-image: url(../assets/icons/LinkedinLogo-hover.svg);
+        }
+        
+        &.instagram {
+          background-image: url(../assets/icons/InstagramLogo-hover.svg);
+        } 
+        
+        &.github {
+          background-image: url(../assets/icons/GithubLogo-hover.svg);
+        }
+        
+        &.email {
+          background-image: url(../assets/icons/EnvelopeSimple-hover.svg);
+        }
+      }
+
+      span {
+        background-image: url(../assets/icons/ArrowUpRight-hover.svg);
+      }
+    }
+  }
+}
