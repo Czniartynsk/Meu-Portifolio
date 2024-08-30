@@ -31,33 +31,31 @@
       } 
 
       div span {
-        width: 2.9rem;
+        width: 2.8rem;
         aspect-ratio: 1/1;
-        object-fit: cover;
 
         &.linkedin {
-          background-image: url(../assets/icons/LinkedinLogo.svg);
+          background: url(../assets/icons/LinkedinLogo.svg) center/contain;
         }
         
         &.instagram {
-          background-image: url(../assets/icons/InstagramLogo.svg);
+          background: url(../assets/icons/InstagramLogo.svg) center/contain;
         } 
         
         &.github {
-          background-image: url(../assets/icons/GithubLogo.svg);
+          background: url(../assets/icons/GithubLogo.svg) center/contain;
         }
         
         &.email {
-          background-image: url(../assets/icons/EnvelopeSimple.svg);
+          background: url(../assets/icons/EnvelopeSimple.svg) center/contain;
         }
       }
 
 
       span {
-        background-image: url(../assets/icons/ArrowUpRight.svg);
-        width: 2.8rem;
-        aspect-ratio: 1/1;
-        object-fit: cover;
+        background: url(../assets/icons/ArrowUpRight.svg) center/contain;
+        width: 2rem;
+        
       }
     }
 
@@ -66,24 +64,24 @@
 
       div span {
         &.linkedin {
-          background-image: url(../assets/icons/LinkedinLogo-hover.svg);
+          background: url(../assets/icons/LinkedinLogo-hover.svg) center/contain;
         }
         
         &.instagram {
-          background-image: url(../assets/icons/InstagramLogo-hover.svg);
+          background: url(../assets/icons/InstagramLogo-hover.svg) center/contain;
         } 
         
         &.github {
-          background-image: url(../assets/icons/GithubLogo-hover.svg);
+          background: url(../assets/icons/GithubLogo-hover.svg) center/contain;
         }
         
         &.email {
-          background-image: url(../assets/icons/EnvelopeSimple-hover.svg);
+          background: url(../assets/icons/EnvelopeSimple-hover.svg) center/contain;
         }
       }
 
       span {
-        background-image: url(../assets/icons/ArrowUpRight-hover.svg);
+        background: url(../assets/icons/ArrowUpRight-hover.svg) center/contain;
       }
     }
   }
